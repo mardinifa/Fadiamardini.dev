@@ -91,10 +91,9 @@ function initTypingAnimation() {
 
     const roles = [
         'Cybersecurity Engineer',
-        'Security Operations Specialist',
+        'SOC Analyst',
         'Penetration Tester',
-        'Security Engineering',
-        'AI-Assisted Security'
+        'Security Engineer',
     ];
 
     let roleIndex = 0;
@@ -493,30 +492,30 @@ function initTerminal() {
 <span class="output-title">🛡️ Adnan Mardini</span>
 <span class="output-subtitle">Cybersecurity Engineer</span>
 <span class="output-divider">─────────────────────────────────────</span>
-Cybersecurity Engineer focused on Security Engineering, Security Operations, Penetration Testing, and AI-assisted Security.
+Cybersecurity focused on Security Engineering, Security Operations, Detection Engineering, and Penetration Testing.
 
 <span class="output-highlight">📍 Lagos, Nigeria</span>
-<span class="output-highlight">🎓 B.Tech Computer Science, Bells University of Technology (First Class Honours, In View)</span>
-<span class="output-highlight">🎓 OND Computer Science, Allover Central Polytechnic (Distinction, GPA: 3.74/4.00)</span>
-<span class="output-highlight">📜 Google Cybersecurity · TryHackMe Security Engineer · SAL1 · Jr Penetration Tester</span>
-<span class="output-highlight">💼 Cybersecurity Engineer at Expadox Labs · Cybersecurity Lead at Inventors Community</span>
+<span class="output-highlight">🎓 B.Tech Computer Science — Bells University of Technology (First Class Honours, In View)</span>
+<span class="output-highlight">🎓 OND Computer Science — Allover Central Polytechnic (Distinction, GPA: 3.74/4.00)</span>
+<span class="output-highlight">📜 Google Cybersecurity • Security Engineer • SAL1 • Jr Penetration Tester</span>
+<span class="output-highlight">💼 Cybersecurity Engineer — Expadox Labs • Cybersecurity Lead — Inventors Community</span>
 
-<span class="output-subtitle">Building secure applications, strengthening enterprise infrastructure, and helping organizations detect and respond to modern cyber threats.</span>`,
+<span class="output-subtitle">Building secure systems, strengthening enterprise infrastructure, and helping organizations detect, respond to, and reduce modern cyber threats.</span>`,
 
         skills: () => {
             const skillData = [
-                { name: 'Security Engineering', level: 85 },
-                { name: 'Python Automation', level: 82 },
-                { name: 'Penetration Testing', level: 80 },
-                { name: 'SIEM & Threat Detection', level: 78 },
-                { name: 'Web App Security', level: 82 },
-                { name: 'DevSecOps', level: 75 },
-                { name: 'Incident Response', level: 76 },
-                { name: 'Enterprise IT', level: 85 },
-                { name: 'Active Directory', level: 80 },
-                { name: 'Docker & Containers', level: 72 }
-            ];
-            
+    { name: 'Security Engineering', level: 85 },
+    { name: 'Enterprise Infrastructure', level: 85 },
+    { name: 'Python & Automation', level: 82 },
+    { name: 'Web App Security', level: 82 },
+    { name: 'Penetration Testing', level: 80 },
+    { name: 'Active Directory', level: 80 },
+    { name: 'SIEM & Threat Detection', level: 78 },
+    { name: 'Incident Response', level: 76 },
+    { name: 'DevSecOps', level: 75 },
+    { name: 'Docker & Containers', level: 72 }
+];
+
             let html = `<span class="output-title">⚡ Technical Skill Tree</span>
 <span class="output-divider">──────────────────────────────────────────</span>
 <div class="terminal-skill-tree">`;
@@ -539,102 +538,108 @@ Cybersecurity Engineer focused on Security Engineering, Security Operations, Pen
         certs: () => `
 <span class="output-title">📜 Certifications & Training</span>
 <span class="output-divider">─────────────────────────────────────</span>
-<span class="output-highlight">Google Cybersecurity</span> — Professional Certificate (Google, Jul 2025)
+<span class="output-highlight">Google Cybersecurity</span> — Professional Certificate (Jul 2025)
+<span class="output-highlight">SAL1</span> — Security Analyst Level 1 (May 2025)
 <span class="output-highlight">Security Engineer</span> — TryHackMe (Jun 2025)
-<span class="output-highlight">SAL1</span> — Security Analyst Level 1 (TryHackMe, May 2025)
 <span class="output-highlight">Jr Penetration Tester</span> — TryHackMe (Apr 2025)
 <span class="output-highlight">Foundation of Ethical Hacking</span> — Udacity (Jan 2025)
-<span class="output-highlight">Microsoft Applied Skills</span> — Administer Active Directory Domain Services
+<span class="output-highlight">Microsoft Applied Skills</span> — Active Directory Domain Services
 
-<span class="output-subtitle">+ Additional hands-on training: Web Application Pentesting, Offensive Pentesting, Security Engineering (TryHackMe).</span>`,
+<span class="output-subtitle">Additional training: Web App Security • Offensive Security • Security Engineering</span>`,
 
         experience: () => `
 <span class="output-title">💼 Career Timeline</span>
 <span class="output-divider">─────────────────────────────────────</span>
-<span class="output-highlight">2026–Present</span>  Cybersecurity Engineer — Expadox Labs
-<span class="output-highlight">2026–Present</span>  IT Infrastructure & Information Security — Fidson Healthcare Plc
+<span class="output-highlight">2026</span>  Cybersecurity Engineer — Expadox Labs
+<span class="output-highlight">2026–Present</span>  IT Infrastructure & Security — Fidson Healthcare Plc
 <span class="output-highlight">2025–Present</span>  Cybersecurity Lead — Inventors Community
 <span class="output-highlight">2024–2025</span>     Cybersecurity Intern — Inventors Community
 <span class="output-highlight">2024–2025</span>     Penetration Tester — Udacity Ethical Hacking Internship
-<span class="output-highlight">2021–2023</span>     IT Support Specialist — Fidson Healthcare Plc
+<span class="output-highlight">2021–2023</span>     IT Support — Fidson Healthcare Plc
 
-<span class="output-subtitle">📍 Lagos, Nigeria | From Enterprise IT to Cybersecurity Engineering</span>`,
+<span class="output-subtitle">📍 Lagos, Nigeria • From Enterprise IT to Cybersecurity Engineering</span>`,
 
         projects: () => `
 <span class="output-title">🚀 Featured Projects</span>
 <span class="output-divider">─────────────────────────────────────</span>
-<span class="output-highlight">🔵 SecOpsAI</span> — AI-Assisted Threat Detection Platform (Python, FastAPI, XGBoost, Docker)
-<span class="output-highlight">🟢 ShieldFlow</span> — DevSecOps Security Automation (GitHub Actions, Semgrep, Trivy, OWASP ZAP)
-<span class="output-highlight">🟠 FireOps</span> — Hybrid Security Monitoring Platform (Wazuh, OpenSearch, Suricata, AWS)
-<span class="output-highlight">🟣 Web Vulnerability Scanner</span> — Python-based security scanner (Flask, BeautifulSoup)
-<span class="output-highlight">⚪ Core Monitoring</span> — Systems engineering simulation (Python, Tkinter, Matplotlib)
+<span class="output-highlight">🔵 SecOpsAI</span> — AI-Assisted Threat Detection (Python, FastAPI, XGBoost)
+<span class="output-highlight">🟢 ShieldFlow</span> — DevSecOps Security Automation
+<span class="output-highlight">🟠 FireOps</span> — Hybrid Security Monitoring
+<span class="output-highlight">🟣 Web Vulnerability Scanner</span> — Python Security Scanner
+<span class="output-highlight">⚪ Core Monitoring Simulator</span> — Systems Engineering
 
-<span class="output-subtitle">🔗 github.com/Adnanmardini — Full portfolio on GitHub</span>`,
+<span class="output-subtitle">🔗 github.com/Adnanmardini • Featured projects & documentation</span>`,
 
         soc: () => `
 <span class="output-title">🛡️ Security Operations Stack</span>
 <span class="output-divider">─────────────────────────────────────</span>
-<span class="output-success">SIEM:</span>        Splunk, Wazuh, OpenSearch
-<span class="output-success">IDS/IPS:</span>      Suricata, Zeek
-<span class="output-success">Cloud:</span>        AWS CloudTrail
-<span class="output-success">VM:</span>          Greenbone Vulnerability Management
-<span class="output-success">Scripting:</span>   Python automation for detection & response
-<span class="output-success">IR:</span>          Structured incident response workflows
-<span class="output-success">Infra:</span>        Windows Server, Active Directory, Networking
+<span class="output-success">SIEM:</span>             Splunk • Wazuh • OpenSearch
+<span class="output-success">IDS/IPS:</span>          Suricata • Zeek
+<span class="output-success">Cloud:</span>            AWS CloudTrail
+<span class="output-success">Vulnerability:</span>    Greenbone
+<span class="output-success">Automation:</span>       Python
+<span class="output-success">Infrastructure:</span>   Windows Server • Active Directory • Networking
+<span class="output-success">IR:</span>               Incident Response Workflows
 
-<span class="output-subtitle">Enterprise security monitoring experience in production environments</span>`,
+<span class="output-subtitle">Enterprise security monitoring across production environments.</span>`,
 
         education: () => `
 <span class="output-title">🎓 Education</span>
 <span class="output-divider">─────────────────────────────────────</span>
 <span class="output-highlight">B.Tech Computer Science</span>
 Bells University of Technology | 2023–2027
-First Class Honours (In View)
+First Class Honours
 
 <span class="output-highlight">OND Computer Science</span>
 Allover Central Polytechnic
 Distinction (GPA: 3.74/4.00)
 
-<span class="output-highlight">Key Coursework:</span>
-• Network Security · Cryptography · Secure Software Development
-• Operating Systems · Database Systems · Data Structures & Algorithms`,
+<span class="output-highlight">Relevant Coursework:</span>
+• Network Security • Cryptography
+• Operating Systems • Database Systems`,
 
         contact: () => `
 <span class="output-title">📬 Let's Connect</span>
 <span class="output-divider">─────────────────────────────────────</span>
-<span class="output-success">Email:</span>    <span class="output-link">adnanmardini1999@gmail.com</span>
-<span class="output-success">LinkedIn:</span>  <span class="output-link">linkedin.com/in/adnan-mardini</span>
-<span class="output-success">GitHub:</span>    <span class="output-link">github.com/Adnanmardini</span>
+<span class="output-success">Email:</span>      <span class="output-link">adnanmardini1999@gmail.com</span>
+<span class="output-success">LinkedIn:</span>   <span class="output-link">linkedin.com/in/adnan-mardini</span>
+<span class="output-success">GitHub:</span>     <span class="output-link">github.com/Adnanmardini</span>
 
-<span class="output-subtitle">Open to: Cybersecurity Engineering | SOC | Security Analyst | Penetration Testing | DevSecOps</span>`,
+<span class="output-subtitle">Open to: Cybersecurity Engineer • Security Engineer • SOC Analyst • Penetration Tester</span>`,
 
         github: () => `
 <span class="output-title">📦 GitHub Repositories</span>
 <span class="output-divider">─────────────────────────────────────</span>
-<span class="output-success">🔵 SecOpsAI</span> — AI-assisted threat detection platform (FastAPI, XGBoost)
-<span class="output-success">🟢 ShieldFlow</span> — DevSecOps security automation pipeline
-<span class="output-success">🟠 FireOps</span> — Hybrid security monitoring architecture
-<span class="output-success">🔍 Web Vulnerability Scanner</span> — Python-based security scanner
-<span class="output-success">💻 Core Monitoring</span> — Multi-core execution simulation
+<span class="output-success">🔵 SecOpsAI</span> — AI-Assisted Threat Detection Platform
+<span class="output-success">🟢 ShieldFlow</span> — DevSecOps Security Automation
+<span class="output-success">🟠 FireOps</span> — Hybrid Security Monitoring
+<span class="output-success">🔍 Web Vulnerability Scanner</span> — Python Security Scanner
+<span class="output-success">💻 Core Monitoring Simulator</span> — Systems Engineering
 
-<span class="output-subtitle">🔗 github.com/Adnanmardini</span>`,
+<span class="output-subtitle">🔗 github.com/Adnanmardini • Featured projects & documentation</span>`,
 
         resume: () => `
 <span class="output-title">📄 Resume</span>
 <span class="output-divider">─────────────────────────────────────</span>
 <span class="output-success">Download:</span> <span class="output-link">assets/resume/adnan-mardini-resume.pdf</span>
 
-<span class="output-subtitle">Type <span class="cmd-highlight">experience</span> for career summary</span>`,
+<span class="output-subtitle">Type <span class="cmd-highlight">experience</span> to view my career timeline.</span>`,
 
         'whois adnan': () => `
 <span class="output-title">WHOIS: adnan-mardini</span>
 <span class="output-divider">─────────────────────────────────────</span>
 <span class="output-success">Registrant:</span> Adnan Mardini
-<span class="output-success">Role:</span>       Cybersecurity Engineer
-<span class="output-success">Location:</span>   Lagos, Nigeria
-<span class="output-success">Focus:</span>      Security Engineering, Security Operations, Penetration Testing, AI-assisted Security
-<span class="output-success">Status:</span>     Active — Available for opportunities
-<span class="output-success">Updated:</span>     2026`,
+<span class="output-success">Role:</span> Cybersecurity Engineer
+<span class="output-success">Location:</span> Lagos, Nigeria
+
+<span class="output-success">Focus:</span>
+• Security Engineering
+• Security Operations
+• Detection Engineering
+• Penetration Testing
+
+<span class="output-success">Status:</span> Available for Opportunities
+<span class="output-success">Updated:</span> 2026`,
 
         history: () => {
             if (commandHistory.length === 0) return '<span class="output-subtitle">No commands yet. Start typing!</span>';
