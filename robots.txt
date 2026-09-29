@@ -1,7 +1,7 @@
-# robots.txt for adnanmardini.com
+# robots.txt for Fadiamardini.com
 
 User-agent: *
 Allow: /
 
 # Sitemap location for crawlers
-Sitemap: https://adnanmardini.com/sitemap.xml
+Sitemap: https://Fadiamardini.com/sitemap.xml

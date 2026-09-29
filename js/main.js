@@ -1,6 +1,5 @@
 /* ============================================
-   PORTFOLIO: ADNAN MARDINI
-   Cybersecurity Engineer
+   PORTFOLIO: Fadia MARDINI
    Interactive Engine
    ============================================ */
 
@@ -90,16 +89,18 @@ function initTypingAnimation() {
     if (!typingElement) return;
 
     const roles = [
-        'Cybersecurity Engineer',
-        'SOC Analyst',
-        'Penetration Tester',
-        'Security Engineer',
+        'Data Analyst',
+        'Business Intelligence Analyst',
+        'IT Support and Operations',
+        'AI Automation Engineer',
+        'Motivational Speaker',
+        'Quote Write',
     ];
 
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
-    let typeSpeed = 80;
+    let typeSpeed = 100;
 
     function type() {
         const currentRole = roles[roleIndex];
@@ -328,7 +329,7 @@ function initContactForm() {
         })
         .catch(error => {
             console.error('Form submission error:', error);
-            alert('Something went wrong. Please email me directly at adnanmardini1999@gmail.com');
+            alert('Something went wrong. Please email me directly at fadiamardini2021@gmail.com');
             submitBtn.innerHTML = originalText;
             submitBtn.disabled = false;
         });
@@ -450,14 +451,15 @@ function initTimeline() {
 
 /* ---------- LOGGING ---------- */
 console.log(
-    '%c Adnan Mardini Portfolio %c v1.0 ',
+    '%c Fadia Mardini Portfolio %c v1.0 ',
     'background: #00d4aa; color: #0a0e14; padding: 6px 12px; font-weight: 700; border-radius: 4px 0 0 4px;',
     'background: #0f1419; color: #e6edf3; padding: 6px 12px; border-radius: 0 4px 4px 0;'
 );
 console.log('%c🔐 Cybersecurity Engineer', 'color: #8b949e; font-style: italic;');
-console.log('%c💻 github.com/Adnanmardini', 'color: #00a3ff;');
+console.log('%c💻 github.com/Fadiamardini', 'color: #00a3ff;');
 
 /* ---------- INTERACTIVE TERMINAL ---------- */
+/*
 function initTerminal() {
     const input = document.getElementById('terminal-input');
     const output = document.getElementById('terminal-output');
@@ -482,14 +484,14 @@ function initTerminal() {
 <span class="output-success">contact</span>       — Get in touch
 <span class="output-success">github</span>        — Repository links
 <span class="output-success">resume</span>        — Download resume
-<span class="output-success">whois adnan</span>  — Full profile
+<span class="output-success">whois Fadia</span>  — Full profile
 <span class="output-success">clear</span>         — Clear terminal
 <span class="output-success">history</span>       — Command history
 <span class="output-divider">─────────────────────────────────────</span>
 <span class="output-subtitle">Try: <span class="cmd-highlight">whoami</span> or <span class="cmd-highlight">skills</span></span>`,
 
         whoami: () => `
-<span class="output-title">🛡️ Adnan Mardini</span>
+<span class="output-title">🛡️ Fadia Mardini</span>
 <span class="output-subtitle">Cybersecurity Engineer</span>
 <span class="output-divider">─────────────────────────────────────</span>
 Cybersecurity focused on Security Engineering, Security Operations, Detection Engineering, and Penetration Testing.
@@ -568,7 +570,7 @@ Cybersecurity focused on Security Engineering, Security Operations, Detection En
 <span class="output-highlight">🟣 Web Vulnerability Scanner</span> — Python Security Scanner
 <span class="output-highlight">⚪ Core Monitoring Simulator</span> — Systems Engineering
 
-<span class="output-subtitle">🔗 github.com/Adnanmardini • Featured projects & documentation</span>`,
+<span class="output-subtitle">🔗 github.com/Fadiamardini • Featured projects & documentation</span>`,
 
         soc: () => `
 <span class="output-title">🛡️ Security Operations Stack</span>
@@ -601,9 +603,9 @@ Distinction (GPA: 3.74/4.00)
         contact: () => `
 <span class="output-title">📬 Let's Connect</span>
 <span class="output-divider">─────────────────────────────────────</span>
-<span class="output-success">Email:</span>      <span class="output-link">adnanmardini1999@gmail.com</span>
-<span class="output-success">LinkedIn:</span>   <span class="output-link">linkedin.com/in/adnan-mardini</span>
-<span class="output-success">GitHub:</span>     <span class="output-link">github.com/Adnanmardini</span>
+<span class="output-success">Email:</span>      <span class="output-link">fadiamardini2021@gmail.com</span>
+<span class="output-success">LinkedIn:</span>   <span class="output-link">linkedin.com/in/Fadia-mardini</span>
+<span class="output-success">GitHub:</span>     <span class="output-link">github.com/Fadiamardini</span>
 
 <span class="output-subtitle">Open to: Cybersecurity Engineer • Security Engineer • SOC Analyst • Penetration Tester</span>`,
 
@@ -616,19 +618,19 @@ Distinction (GPA: 3.74/4.00)
 <span class="output-success">🔍 Web Vulnerability Scanner</span> — Python Security Scanner
 <span class="output-success">💻 Core Monitoring Simulator</span> — Systems Engineering
 
-<span class="output-subtitle">🔗 github.com/Adnanmardini • Featured projects & documentation</span>`,
+<span class="output-subtitle">🔗 github.com/Fadiamardini • Featured projects & documentation</span>`,
 
         resume: () => `
 <span class="output-title">📄 Resume</span>
 <span class="output-divider">─────────────────────────────────────</span>
-<span class="output-success">Download:</span> <span class="output-link">assets/resume/adnan-mardini-resume.pdf</span>
+<span class="output-success">Download:</span> <span class="output-link">assets/resume/Fadia-mardini-resume.pdf</span>
 
 <span class="output-subtitle">Type <span class="cmd-highlight">experience</span> to view my career timeline.</span>`,
 
-        'whois adnan': () => `
-<span class="output-title">WHOIS: adnan-mardini</span>
+        'whois Fadia': () => `
+<span class="output-title">WHOIS: Fadia-mardini</span>
 <span class="output-divider">─────────────────────────────────────</span>
-<span class="output-success">Registrant:</span> Adnan Mardini
+<span class="output-success">Registrant:</span> Fadia Mardini
 <span class="output-success">Role:</span> Cybersecurity Engineer
 <span class="output-success">Location:</span> Lagos, Nigeria
 
@@ -682,8 +684,8 @@ ${commandHistory.map((cmd, i) => `<span class="output-subtitle">${i + 1}.</span>
         }
 
         // Check for multi-word commands
-        if (trimmed === 'whois adnan') {
-            cmd = 'whois adnan';
+        if (trimmed === 'whois Fadia') {
+            cmd = 'whois Fadia';
         }
 
         if (cmd === 'clear') {
@@ -731,7 +733,7 @@ ${commandHistory.map((cmd, i) => `<span class="output-subtitle">${i + 1}.</span>
             
             const cmdLine = document.createElement('div');
             cmdLine.className = 'terminal-output-line';
-            cmdLine.innerHTML = `<span class="prompt">┌──(adnan㉿portfolio)-[~]</span><br><span class="prompt">└─$</span> <span class="command">${cmd}</span>`;
+            cmdLine.innerHTML = `<span class="prompt">┌──(Fadia㉿portfolio)-[~]</span><br><span class="prompt">└─$</span> <span class="command">${cmd}</span>`;
             output.appendChild(cmdLine);
 
             const result = executeCommand(cmd);
@@ -783,3 +785,4 @@ function clearTerminal() {
     const output = document.getElementById('terminal-output');
     if (output) output.innerHTML = '';
 }
+    */

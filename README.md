@@ -1,7 +1,7 @@
-# Adnan Mardini Portfolio
+# Fadia Mardini Portfolio
 
 Live Website:
-https://adnanmardini-dev.vercel.app
+https://Fadiamardini-dev.vercel.app
 
 ## Features
 
